@@ -1,0 +1,205 @@
+/*
+selector{
+    PROPIEDAD: valor;
+}
+*/
+header{
+    white-space-collapse: 100%;
+    background-color: #fa023c;
+}
+
+header nav{
+   display:flex;
+   justify-content: center;
+   
+}
+h1{
+    color: #f1f1f1;
+    justify-content: flex-start;
+    
+}
+
+body{
+    /*Margen*/
+    margin: 0%;
+    /*Margen por dentro*/
+    padding: 0%;
+    /*Tam del texto*/
+    font-size:medium;
+    /*fONDO DE COLOR*/
+    background-color:#040004;
+    /*PARA TEXTO COLOR*/
+    color: #f1f1f1;
+    /*TIPOGRAFIA*/
+    /*font-family:'Times New Roman', Times, serif ;  font-size:25px;*/
+    font-family:'DM Serif Display', serif;
+    font-family: 'PT Serif', serif;;
+    
+}
+
+main .video{
+    width: 100%;
+}
+
+main .separador{
+    
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    border-block-end: solid; 
+    background-color: #1dfccf;
+}
+
+main .introduccion1{
+    width: 100%;
+    margin: 0%;
+    justify-content: right;
+    text-align: justify;
+}
+container{
+    width: 100%;
+    text-align: justify;
+    justify-content: right;
+    
+   
+}
+
+main .temas{
+    justify-content: center;
+    width: 100%;
+    background-color: chocolate;
+}
+main .temas-a-encontrar{
+    justify-content: center;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+
+
+main .izquierda{
+    background-color:#FCD21D;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    /*ubicar elementos en el eje principal horizontal*/
+    justify-content: right;
+    /*ubicar elementos en el eje principal vertical*/
+    align-items: center;
+    padding: 0%;
+    /*Ve el espacio entre ambos elementos*/
+    justify-content:flex-start;
+    margin-left: 15px;
+    text-align: justify;
+    height: 40%;
+}
+
+main .que-es-magnetismo{
+   /* justify-self: start;
+    font-size: 150%;
+    width: 30%;
+    margin: 2%;
+    justify-content: flex-start; */
+    font-size: 200%;
+    margin-left: 5%;
+    top: auto;
+}
+
+
+
+
+#link-magnetismo{
+    text-align: end;
+    vertical-align: middle;
+    background-color: #FCD21D;
+    border-radius: 2%;
+    justify-content: end;
+
+}
+
+main .subtema-concepto-magnetismo{
+    width: 100%;
+    background-color: cornflowerblue;
+    text-align: justify;
+    justify-content: space-around;
+}
+main div{
+    background-color:#040004;
+    color:#fcf2fc;
+    display: flex;
+    justify-content:center;
+    
+}
+
+main .Camposmagneticos-delatierra{
+    background-color: coral;
+}
+
+
+h3{
+    color: #f1f1f1;
+}
+
+a { /*es para cambiar el color del ancla*/
+    color: #f1f1f1;
+}
+
+img{
+    /*ancho del objeto*/
+    width:50%;
+    /*alto del objeto en px son pixeles*/
+    /*height: 50px; */
+    height: 50%;
+}
+.planeta{
+    width: 50%;
+    /*redondea imagenes*/
+    border-radius: 100%;
+}
+.bongocat{
+    width: 40%;
+    border-radius: 10%;
+    /*da sombra a las imagenes*/
+    box-shadow: 10px 0px 5px rgb(86, 64, 64);
+}
+
+.derecha{
+    background: url(/images/Magnetismo\ e\ Gatos.jpg);
+    background-size: cover;
+    background-position: center;
+    /*Ponemos el ancho*/
+    width: 50%;
+    height: 50vh;
+
+    background-color: #FCD21D;
+} 
+
+
+
+
+
+
+p{
+    font-size: 19px;
+    line-height:30px ;
+   width: 50%;
+   margin: 2%;
+}
+a{
+    border-radius: 30px;
+    border-bottom: #FCD21D;
+    padding: 10px;
+    text-decoration: overline;
+    color: azure;
+    font-weight: 100;
+    vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+
